@@ -1,7 +1,6 @@
 from django.db import models
 from random import choices
 
-
 class Cliente(models.Model):
     nome = models.CharField(max_length=50)
     endereco = models.CharField(max_length=50)
@@ -10,6 +9,8 @@ class Cliente(models.Model):
     telefone = models.CharField(max_length=11)
     curso = models.CharField(max_length=50)
     
+    def __str__(self):
+            return self.nome
     
    
 class Curso(models.Model):
@@ -29,11 +30,10 @@ class Curso(models.Model):
          )
         
         curso = models.CharField(max_length=50, default="Novo Curso", choices=cursoChoices)
-        novoCursoNome = models.CharField(max_length=50, default="Novo Curso")
+        novoCurso = models.CharField(max_length=50, default="Novo Curso")
     
         def __str__(self):
             return self.curso
-        
         
         
 
