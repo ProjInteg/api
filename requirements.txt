@@ -26,6 +26,7 @@ django-cleanup==6.0.0
 django-crispy-forms==1.14.0
 django-filter==22.1
 django-heroku==0.3.1
+django-on-heroku==1.1.2
 djangorestframework==3.14.0
 entrypoints==0.4
 executing==1.0.0
@@ -59,6 +60,7 @@ nbconvert==7.0.0
 nbformat==5.4.0
 nest-asyncio==1.5.5
 notebook==6.4.12
+numpy==1.23.5
 oauthlib==3.2.2
 packaging==21.3
 pandocfilters==1.5.0
@@ -69,6 +71,11 @@ prometheus-client==0.14.1
 prompt-toolkit==3.0.31
 psutil==5.9.2
 psycopg2==2.9.5
+psycopg2-binary==2.9.5
+pure-eval==0.2.2
+pycodestyle==2.9.1
+pycparser==2.21
+Pygments==2.13.0
 pylint==2.15.5
 pyparsing==3.0.9
 pyrsistent==0.18.1
