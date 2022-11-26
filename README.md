@@ -7,4 +7,4 @@ clientes: (alunos da Associação)
 cursos : todos.
 
 
-https://git.heroku.com/belasartesapi.git
+https://belasartesapi.herokuapp.com/
