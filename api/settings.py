@@ -77,10 +77,16 @@ WSGI_APPLICATION = 'api.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+            'ENGINE': 'django.db.backends.mysql',
+            'NAME': 'heroku_c8be21b2a4241c4',
+            'USER': 'bc65373616e759',
+            'PASSWORD': '142ae7b7',
+            'HOST': 'us-cdbr-east-06.cleardb.net',
+            'PORT': '3306',
     }
 }
+''''ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3','''
 
 
 # Password validation

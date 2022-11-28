@@ -53,6 +53,8 @@ MarkupSafe==2.1.1
 matplotlib-inline==0.1.6
 mccabe==0.7.0
 mistune==2.0.4
+mysqlclient==2.1.1
+mysql-connector-python==8.0.31
 nbclient==0.6.8
 nbconvert==7.0.0
 nbformat==5.4.0
@@ -73,6 +75,7 @@ pycodestyle==2.9.1
 pycparser==2.21
 Pygments==2.13.0
 pylint==2.15.5
+PyMySQL==1.0.2
 pyparsing==3.0.9
 pyrsistent==0.18.1
 python-dateutil==2.8.2
